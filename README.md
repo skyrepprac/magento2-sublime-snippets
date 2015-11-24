@@ -1,3 +1,3 @@
 # Magento 2 - Sublime Snippets
 
-Friendly SublimeText Snippets to work with Magento 2
+This [Sublime Snippets](http://docs.sublimetext.info/en/latest/extensibility/snippets.html) are created to make easier Magento 2 working when we are using Sublime Text(v2 & v3) as editor.
