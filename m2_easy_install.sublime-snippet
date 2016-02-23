@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+magento setup:install --base-url=${1:} --db-host=${2:} --db-name=${3:} --db-user=${4:} --db-password=${5:} --admin-firstname=${6:} --admin-lastname=${7:} --admin-email=${8:} --admin-user=${9:} --admin-password=${10:} --language=${11:} --currency=${12:} --timezone=${13:} --use-rewrites=${14:}
+]]></content>
+	<tabTrigger>m2-easy-install</tabTrigger>
+</snippet>
