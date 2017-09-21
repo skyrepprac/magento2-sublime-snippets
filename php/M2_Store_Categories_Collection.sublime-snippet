@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+\$appState = \$objectManager->get('\Magento\Framework\App\State');
+\$appState->setAreaCode('frontend');
+\$categoryCollection = \$objectManager->get('\Magento\Catalog\Model\ResourceModel\Category\CollectionFactory');
+\$categories = \$categoryCollection->create();
+\$categories->addAttributeToSelect('*');
+foreach (\$categories as \$category) {
+	//print_r(\$category->getData());
+	echo \$category->getName() . '<br />';
+}
+\$categoryHelper = \$objectManager->get('\Magento\Catalog\Helper\Category');
+\$categories = \$categoryHelper->getStoreCategories();
+foreach (\$categories as \$category) {
+	echo \$category->getName() . '<br />';$0
+]]></content>
+	<tabTrigger>mage2xstorecategories</tabTrigger>
+	<scope>source.php,source.phps</scope>
+</snippet>
