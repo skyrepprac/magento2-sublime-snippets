@@ -1,4 +1,12 @@
 <?php
+/*
+Create the file
+
+dev/tests/unit/quicktest.php
+
+with 
+*/
+
 class QuickTest extends \PHPUnit_Framework_TestCase
 {
 	public function testExample()
